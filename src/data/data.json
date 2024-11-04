@@ -1,0 +1,75 @@
+{
+    "skills" : [
+        {
+            "id": "html",
+            "name": "HTML",
+            "level": "intermediaire",
+            "icon": "../src/assets/html5-blue.webp"
+        },
+        {
+            "id": "css",
+            "name": "CSS",
+            "level": "intermediaire",
+            "icon": "../src/assets/css-3-blue.webp"
+        },
+        {
+            "id": "javascript",
+            "name": "Javascript",
+            "level": "Les bases",
+            "icon": "../src/assets/script-java-blue.webp"
+        },
+        {
+            "id": "react",
+            "name": "React",
+            "level": "Les bases",
+            "icon": "../src/assets/react-blue.webp"
+        }
+    ], 
+    
+    "link-github": "https://github.com/Foxrim",
+    "link-linkdin": "https://www.linkedin.com/in/flavien-rousseau-444bbb199/",
+
+
+    "cardProjet" : [
+        {
+            "id": "LPF",
+            "image": "../src/assets/LePetitFrappe.webp",
+            "title": "Le Petit Frappé",
+            "description": "Premier projet de groupe de la formation, avec un délais de 2 semaines pour le réaliser.",
+            "objectif": "Réaliser un site en groupe avec pour thème choisis 'Bonnes adresses pour manger'.",
+            "tech": "HTML, CSS, Javascript",
+            "date": "10/2024",
+            "link": "https://wildcodeschool-2024-09.github.io/JS-RemoteFR-Vendangeurs-P1-Les-Frappes/"
+        },
+        {
+            "id": "JAN",
+            "image": "../src/assets/JapanAnimation.webp",
+            "title": "JapanAnimation",
+            "description": "Projet réalisé durant les premières semaines de la formation.",
+            "objectif": "Réaliser un site seul en seulement quelques heures. Le choix du thème était libre.",
+            "tech": "HTML, CSS",
+            "date": "10/2024",
+            "link": "https://japan-animation.netlify.app/"
+        },
+        {
+            "id": "ERL",
+            "image": "../src/assets/CardEtienne.webp",
+            "title": "Étienne Robial",
+            "description": "Exercice réalisé afin de déterminer notre niveau de compréhension du CSS.",
+            "objectif": "Réalisé une card sur une des personnalités listé et en faire une mini-biography.",
+            "tech": "HTML, CSS",
+            "date": "09/2024",
+            "link": "https://lambent-kitten-7da7df.netlify.app/"
+        },
+        {
+            "id": "BAB",
+            "image": "../src/assets/bienvenue-a-bord.webp",
+            "title": "Bienvenue à bord",
+            "description": "Première quête de la formation.",
+            "objectif": "Recopier à l'identique une maquette préfaite en usant uniquement de l'HTML et du CSS",
+            "tech": "HTML, CSS",
+            "date": "09/2024",
+            "link": "https://lambent-kitten-7da7df.netlify.app/"
+        }
+    ]
+}

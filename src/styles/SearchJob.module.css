@@ -1,0 +1,26 @@
+.searchJob {
+    height: 25vh;
+    background-color: #181818;
+    color: whitesmoke;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+
+    h2 {
+        font-size: 40px;
+        margin: 0 0 1.5rem 0;
+    }
+
+    p {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    strong {
+        color: var(--font-strong-color);
+    }
+}

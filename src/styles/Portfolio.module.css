@@ -1,0 +1,47 @@
+.portfolio {
+    height: 100%;
+    background-image: url(../assets/munich-3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-bottom: 3rem;
+    
+
+    .titlePortfolio {
+        display: flex;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+
+    .cardPortfolioContainer {
+        width: 80%;
+
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 10% 0 10%; 
+        gap: 1.5rem;
+
+        @media screen and (min-width: 980px) {
+            margin: 3rem 21%;
+
+            width: 55%;
+            height: 70vh;
+
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 50% 50%;
+        }
+
+        @media screen and (min-width: 700px) and (max-width:980px) {
+            margin: 3rem 21%;
+
+            width: 55%;
+            height: 30rem;
+
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+        }
+    }
+
+}

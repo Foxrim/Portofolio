@@ -1,0 +1,37 @@
+.title {
+    position: relative;
+
+    h2 {
+        margin: 0;
+        font-size: 40px;
+        color: whitesmoke;
+    }
+
+    .titlePortfolioHrLeft {
+        width: 5px;
+        height: 2rem;
+        background: linear-gradient(45deg,var(--primary-color),#3c4f85,#6A6D75, #ffffff, #ffffff);
+        margin: 0;
+        
+        border: none;
+        border-radius: 10px 0 15px 0;
+
+        position: absolute;
+        top: -1rem;
+        left: -1.25rem;
+    }
+
+    .titlePortfolioHrTop {
+        width: 9rem;
+        height: 5px;
+        background: whitesmoke;
+        margin: 0;
+        
+        border: none;
+        border-radius: 10px 0 15px 0;
+
+        position: absolute;
+        top: -1rem;
+        left: -1.25rem;
+    }
+}

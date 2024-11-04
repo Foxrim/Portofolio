@@ -1,0 +1,68 @@
+nav {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    div img {
+        width: 100px;
+        margin: 0 1rem;
+        border-radius: 50%;
+
+        @media screen and (max-width: 700px) {
+            display: none;
+        }
+
+    }
+
+    a img {
+        width: 50px;
+        margin: 0 1rem;
+    }
+
+    a:hover img {
+        animation: animLogo 1s ease-in-out;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+        
+    }
+
+    @media screen and (min-width: 700px) and (max-width: 980px) {
+        width: 80%;
+    }
+
+    @media screen and (max-width: 700px) {
+        justify-content: center;
+        
+    }
+
+}
+
+@keyframes animLogo {
+    20% {
+        rotate: 25deg;
+        scale:1.1;
+    }
+    50% {
+        rotate: -25deg;
+        scale:1.1;
+    }
+    70% {
+        rotate: 20deg;
+        scale:1.1;
+    }
+    100% {
+        rotate: 0deg;
+        scale:1;
+    }
+}

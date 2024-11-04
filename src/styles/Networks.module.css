@@ -1,0 +1,18 @@
+.networksContainer {
+    height: 100%;
+    background-color: var(--background-interact2);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 1.25rem;
+    gap: 1rem;
+
+    img {
+        height: 50px;
+    }
+}

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #414141; 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: whitesmoke; 
+    border-radius: 20px; 
+    border: 3px solid whitesmoke; 
+  }
+
+:root {
+   margin: 0;
+   padding: 0;
+
+
+   --background-color: #414141;
+   --primary-color: #0054bb;
+   --font-color: whitesmoke;
+   --font-strong-color: #3b93ff;
+   --background-interact: #0054bb93;
+   --background-interact2: #ececec46;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+

@@ -1,0 +1,89 @@
+.formulaire {
+    height: 100%;
+    width: 23rem;
+    background-color: var(--background-interact2);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+
+    padding: 1.5rem;
+
+    margin-top: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    fieldset {
+        border-radius: 13px;
+        padding: 0 0.7rem 0.7rem 0.7rem;
+    }
+
+    legend {
+        color: var(--font-color);
+        font-size: 20px;
+        margin: 0 4px;
+    }
+
+    .nameMail {
+        border: none;
+        background-color: rgba(0, 0, 255, 0);
+
+        height: 2.25rem;
+        width: 18rem;
+        padding: 0.25rem 0.5rem;
+
+        font-size: 16px;
+        color: var(--font-color);
+        outline: none;
+    }
+
+    .fieldsetContent {
+        border-radius: 13px;
+    }
+
+    .content {
+        border: none;
+        background-color: rgba(0, 0, 255, 0);
+
+        height: 10rem;
+        width: 18rem;
+        padding: 0.25rem 0.5rem;
+
+        font-size: 16px;
+        color: var(--font-color);
+        outline: none;
+        resize: none;   
+    }
+
+    input::placeholder, textarea::placeholder {
+        color: #ffffff83; 
+        opacity: 1;
+    }
+
+    button {
+        height: 2.5rem;
+        bottom: 1.5rem;
+        padding: 0.25rem 1rem; 
+        margin-top: 0.75rem;
+        border-radius: 9px;
+        border: none;
+
+        width: 19.65rem;
+        
+        color: var(--primary-color);
+        font-size: 15px;
+        background-color: rgba(134, 134, 134, 0);
+        backdrop-filter: blur(2px);
+        border: solid var(--primary-color) 2px;
+
+        cursor: pointer;
+
+        transition: 0.3s ease-in-out;
+    }
+
+    button:hover {
+        color: var(--font-color);
+        background-color: var(--primary-color);
+    }
+}

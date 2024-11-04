@@ -1,0 +1,44 @@
+.about {
+    height: 100%;
+    background-image: url(../assets/munich-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-bottom: 3rem;
+
+    position: relative;
+    
+    .titleAbout {
+        display: flex;
+        justify-content: center;
+        padding-top: 3rem;
+    }
+
+    .skillResume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        margin-top: 5rem;
+
+        @media screen and (max-width: 700px) {
+            flex-direction: column;
+        }
+    }
+
+    .hrCenter {
+        width: 5px;
+        height: 50%;
+        background: whitesmoke;
+        margin: 0;
+        
+        border: none;
+        border-radius: 15px;
+
+        position: absolute;
+
+        @media screen and (max-width: 700px) {
+            display: none;
+        }
+    }
+}

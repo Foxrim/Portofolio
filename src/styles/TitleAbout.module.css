@@ -1,0 +1,37 @@
+.title {
+    position: relative;
+
+    h2 {
+        margin: 0;
+        font-size: 40px;
+        color: whitesmoke;
+    }
+
+    .titleAboutHrRight {
+        width: 5px;
+        height: 2rem;
+        background: linear-gradient(45deg, #ffffff, #ffffff,#6A6D75,#3c4f85,var(--primary-color) );
+        margin: 0;
+        
+        border: none;
+        border-radius: 15px 0 5px 0;
+
+        position: absolute;
+        bottom: -1rem;
+        right: -1.25rem;
+    }
+
+    .titleAboutHrBottom {
+        width: 9rem;
+        height: 5px;
+        background: whitesmoke;
+        margin: 0;
+        
+        border: none;
+        border-radius: 15px 15px 5px 0;
+
+        position: absolute;
+        bottom: -1rem;
+        right: -1.25rem;
+    }
+}
