@@ -7,7 +7,7 @@ export default function Nav() {
     return (
         <nav className={styles.nav} >
             <div>
-                <img src="../src/assets/renard-logo.png" alt="" />
+                <img src="https://portfolio-flavien-rousseau.netlify.app/src/assets/renard-logo.png" alt="" />
             </div>
            <ul>
             <li>

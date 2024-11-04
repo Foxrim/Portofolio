@@ -18,7 +18,7 @@ export default function CardPortfolio( { image, title, description, objectif, te
                 <img src={image} alt={title} />
             </figure>
             <h3>{title}</h3>
-            <a href="">Voir plus <img src="../src/assets/arrow-right.webp" alt="" /> </a>
+            <a href="">Voir plus <img src="https://portfolio-flavien-rousseau.netlify.app/src/assets/arrow-right.webp" alt="" /> </a>
             <div className={styles.cardPortfolio__hidden} >
                 <div>
                     <h3>{title}</h3>
