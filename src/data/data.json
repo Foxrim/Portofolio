@@ -33,7 +33,7 @@
     "cardProjet" : [
         {
             "id": "LPF",
-            "image": "../src/assets/LePetitFrappe.webp",
+            "image": "https://portfolio-flavien-rousseau.netlify.app//src/assets/LePetitFrappe.webp",
             "title": "Le Petit Frappé",
             "description": "Premier projet de groupe de la formation, avec un délais de 2 semaines pour le réaliser.",
             "objectif": "Réaliser un site en groupe avec pour thème choisis 'Bonnes adresses pour manger'.",
@@ -43,7 +43,7 @@
         },
         {
             "id": "JAN",
-            "image": "../src/assets/JapanAnimation.webp",
+            "image": "https://portfolio-flavien-rousseau.netlify.app//src/assets/JapanAnimation.webp",
             "title": "JapanAnimation",
             "description": "Projet réalisé durant les premières semaines de la formation.",
             "objectif": "Réaliser un site seul en seulement quelques heures. Le choix du thème était libre.",
@@ -53,7 +53,7 @@
         },
         {
             "id": "ERL",
-            "image": "../src/assets/CardEtienne.webp",
+            "image": "https://portfolio-flavien-rousseau.netlify.app//src/assets/CardEtienne.webp",
             "title": "Étienne Robial",
             "description": "Exercice réalisé afin de déterminer notre niveau de compréhension du CSS.",
             "objectif": "Réalisé une card sur une des personnalités listé et en faire une mini-biography.",
@@ -63,7 +63,7 @@
         },
         {
             "id": "BAB",
-            "image": "../src/assets/bienvenue-a-bord.webp",
+            "image": "https://portfolio-flavien-rousseau.netlify.app//src/assets/bienvenue-a-bord.webp",
             "title": "Bienvenue à bord",
             "description": "Première quête de la formation.",
             "objectif": "Recopier à l'identique une maquette préfaite en usant uniquement de l'HTML et du CSS",
