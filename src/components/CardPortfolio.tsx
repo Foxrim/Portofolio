@@ -1,4 +1,5 @@
 import styles from "../styles/CardPortfolio.module.css"
+import CardDescPortfolio from "./CardDescPortfolio";
 
 interface cardPortfolioConfig {
     image: string;
@@ -12,23 +13,20 @@ interface cardPortfolioConfig {
 
 export default function CardPortfolio( { image, title, description, objectif, tech, date, link } : cardPortfolioConfig ) {
 
+
     return (
-        <div className={styles.cardPortfolio} >
+        <>
+        <div className={styles.cardPortfolio}>
             <figure>
                 <img src={image} alt={title} />
             </figure>
             <h3>{title}</h3>
-            <a href="">Voir plus <img src="https://portfolio-flavien-rousseau.netlify.app/src/assets/arrow-right.webp" alt="" /> </a>
-            <div className={styles.cardPortfolio__hidden} >
-                <div>
-                    <h3>{title}</h3>
-                    <p>{date}</p>
-                    <p>{description}</p>
-                    <p>{objectif}</p>
-                    <h4>{tech}</h4>
-                    <a href={link}>lien</a>
-                </div>
+            <span>Voir plus <i className="material-icons">arrow_forward_ios</i></span>
+            <div>
+                <CardDescPortfolio description={description} objectif={objectif} tech={tech} date={date} link={link} title={title} />
             </div>
         </div>
+        </>
     )
 }
+

@@ -8,7 +8,7 @@ export default function Header() {
 
     return (
         <>
-        <header className={styles.header} >
+        <header id="top" className={styles.header} >
             <Nav/>
             <div className={styles.titleHomeContainer} >
             <Title/>

@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
 
     padding-bottom: 3rem;
+    z-index: 10;
 
     display: flex;
     justify-content: center;

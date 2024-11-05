@@ -5,6 +5,8 @@
     backdrop-filter: blur(5px);
     border-radius: 10px;
 
+    position: relative;
+
     display: grid; 
     grid-template-columns: 100%;
     grid-template-rows: 70% 15% 15%;
@@ -25,9 +27,7 @@
 
         @media screen and (max-width: 700px) {
             display: none;
-        }
-
-    
+        } 
     }
 
     h3 {
@@ -41,7 +41,8 @@
         }
     }
 
-    a {
+    span {
+        cursor: pointer;
         margin-top: 2%;
         padding: 0rem 1rem 1rem 1rem;
         font-size: 16px;
@@ -50,11 +51,11 @@
 
         position: relative;
         
-        img {
-            height: 12px;
+        i {
+            font-size: 19px;
             position: absolute;
             left: 5rem;
-            top: 7px;
+            top: 4px;
 
             transition: left 0.2s ease-in-out;
         }
@@ -66,11 +67,15 @@
         
     }
     
-    a:hover img {
+    span:hover i {
             left: 5.35rem;
     }
 
     .cardPortfolio__hidden {
         display: none;
+    }
+
+    .cardPortfolio__hidden.visible {
+        display: block;
     }
 }

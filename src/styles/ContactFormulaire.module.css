@@ -46,7 +46,7 @@
         border: none;
         background-color: rgba(0, 0, 255, 0);
 
-        height: 10rem;
+        height: 15rem;
         width: 18rem;
         padding: 0.25rem 0.5rem;
 
@@ -72,8 +72,9 @@
         width: 19.65rem;
         
         color: var(--primary-color);
-        font-size: 15px;
-        background-color: rgba(134, 134, 134, 0);
+        font-size: 17px;
+        font-weight: bolder;
+        background-color: rgba(180, 180, 180, 0.247);
         backdrop-filter: blur(2px);
         border: solid var(--primary-color) 2px;
 
@@ -85,5 +86,6 @@
     button:hover {
         color: var(--font-color);
         background-color: var(--primary-color);
+        border: solid rgba(255, 255, 255, 0.452) 2px;
     }
 }

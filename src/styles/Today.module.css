@@ -1,6 +1,6 @@
 .today {
     height: 25vh;
-    background-color: #181818;
+    background-color: var(--background-color);
     color: whitesmoke;
 
     display: flex;
@@ -9,6 +9,8 @@
     flex-direction: column;
 
     text-align: center;
+    position: relative;
+    z-index: 10;
 
     h2 {
         font-size: 40px;

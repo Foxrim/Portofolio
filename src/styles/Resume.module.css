@@ -35,7 +35,8 @@
         border: none;
         
         color: var(--primary-color);
-        font-size: 15px;
+        font-size: 17px;
+        font-weight: bolder;
         background-color: rgba(0, 0, 31, 0);
         border: solid var(--primary-color) 2px;
 
@@ -47,6 +48,7 @@
     button:hover {
         color: var(--font-color);
         background-color: var(--primary-color);
+        border: solid rgba(255, 255, 255, 0.452) 2px;
     }
 
     @media screen and (max-width:700px) {

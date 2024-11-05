@@ -4,36 +4,44 @@
             "id": "html",
             "name": "HTML",
             "level": "intermediaire",
-            "icon": "https://portfolio-flavien-rousseau.netlify.app/src/assets/html5-blue.webp"
+            "icon": "../src/assets/html5-blue.webp"
         },
         {
             "id": "css",
             "name": "CSS",
             "level": "intermediaire",
-            "icon": "https://portfolio-flavien-rousseau.netlify.app/src/assets/css-3-blue.webp"
+            "icon": "../src/assets/css-3-blue.webp"
         },
         {
             "id": "javascript",
             "name": "Javascript",
             "level": "Les bases",
-            "icon": "https://portfolio-flavien-rousseau.netlify.app/src/assets/script-java-blue.webp"
+            "icon": "../src/assets/script-java-blue.webp"
         },
         {
             "id": "react",
             "name": "React",
             "level": "Les bases",
-            "icon": "https://portfolio-flavien-rousseau.netlify.app/src/assets/react-blue.webp"
+            "icon": "../src/assets/react-blue.webp"
         }
     ], 
     
-    "link-github": "https://github.com/Foxrim",
-    "link-linkdin": "https://www.linkedin.com/in/flavien-rousseau-444bbb199/",
+    "github": {   
+            "id": "L-G",
+            "image": "../src/assets/github-mark-white.png",
+            "link": "https://github.com/Foxrim"
+        },
 
+    "linkedin": {
+            "id": "L-L",
+            "image": "../src/assets/linkedin-white.png",
+            "link": "https://www.linkedin.com/in/flavien-rousseau-444bbb199/"
+     },     
 
     "cardProjet" : [
         {
             "id": "LPF",
-            "image": "https://portfolio-flavien-rousseau.netlify.app/src/assets/LePetitFrappe.webp",
+            "image": "../src/assets/LePetitFrappe.webp",
             "title": "Le Petit Frappé",
             "description": "Premier projet de groupe de la formation, avec un délais de 2 semaines pour le réaliser.",
             "objectif": "Réaliser un site en groupe avec pour thème choisis 'Bonnes adresses pour manger'.",
@@ -43,7 +51,7 @@
         },
         {
             "id": "JAN",
-            "image": "https://portfolio-flavien-rousseau.netlify.app/src/assets/JapanAnimation.webp",
+            "image": "../src/assets/JapanAnimation.webp",
             "title": "JapanAnimation",
             "description": "Projet réalisé durant les premières semaines de la formation.",
             "objectif": "Réaliser un site seul en seulement quelques heures. Le choix du thème était libre.",
@@ -53,7 +61,7 @@
         },
         {
             "id": "ERL",
-            "image": "https://portfolio-flavien-rousseau.netlify.app/src/assets/CardEtienne.webp",
+            "image": "../src/assets/CardEtienne.webp",
             "title": "Étienne Robial",
             "description": "Exercice réalisé afin de déterminer notre niveau de compréhension du CSS.",
             "objectif": "Réalisé une card sur une des personnalités listé et en faire une mini-biography.",
@@ -63,7 +71,7 @@
         },
         {
             "id": "BAB",
-            "image": "https://portfolio-flavien-rousseau.netlify.app/src/assets/bienvenue-a-bord.webp",
+            "image": "../src/assets/bienvenue-a-bord.webp",
             "title": "Bienvenue à bord",
             "description": "Première quête de la formation.",
             "objectif": "Recopier à l'identique une maquette préfaite en usant uniquement de l'HTML et du CSS",
