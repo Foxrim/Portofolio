@@ -5,7 +5,7 @@ import Footer from './Footer'
 import Goal from './Goal'
 import Header from './Header'
 import NavBarFix from './NavBarFix'
-import Portfolio from './Portfolio'
+import Projets from './Projets'
 import SearchJob from './SearchJob'
 import Today from './Today'
 
@@ -19,7 +19,7 @@ function App() {
       <NavBarFix/>
       <About/>
       <SearchJob/>
-      <Portfolio/>
+      <Projets/>
       <Goal/>
       <Contact/>
       <Footer/>

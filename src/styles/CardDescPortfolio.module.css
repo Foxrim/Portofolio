@@ -1,9 +1,0 @@
-.cardContainerVisible {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .cardPortfolio__hidden.visible {
-        display: block;
-    }
-}

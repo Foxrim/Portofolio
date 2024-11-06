@@ -43,8 +43,8 @@
             "id": "LPF",
             "image": "../src/assets/LePetitFrappe.webp",
             "title": "Le Petit Frappé",
-            "description": "Premier projet de groupe de la formation, avec un délais de 2 semaines pour le réaliser.",
-            "objectif": "Réaliser un site en groupe avec pour thème choisis 'Bonnes adresses pour manger'.",
+            "description": "Premier projet de groupe de la formation, avec un délai de 2 semaines pour le réaliser.",
+            "objectif": "Réaliser un site en groupe avec pour thème choisi 'Bonnes adresses pour manger'.",
             "tech": "HTML, CSS, Javascript",
             "date": "10/2024",
             "link": "https://wildcodeschool-2024-09.github.io/JS-RemoteFR-Vendangeurs-P1-Les-Frappes/"
@@ -64,7 +64,7 @@
             "image": "../src/assets/CardEtienne.webp",
             "title": "Étienne Robial",
             "description": "Exercice réalisé afin de déterminer notre niveau de compréhension du CSS.",
-            "objectif": "Réalisé une card sur une des personnalités listé et en faire une mini-biography.",
+            "objectif": "Réaliser une card sur l'une des personnalités listées et en faire une mini-biographie.",
             "tech": "HTML, CSS",
             "date": "09/2024",
             "link": "https://lambent-kitten-7da7df.netlify.app/"
@@ -76,8 +76,7 @@
             "description": "Première quête de la formation.",
             "objectif": "Recopier à l'identique une maquette préfaite en usant uniquement de l'HTML et du CSS",
             "tech": "HTML, CSS",
-            "date": "09/2024",
-            "link": "https://lambent-kitten-7da7df.netlify.app/"
+            "date": "09/2024"
         }
     ]
 }
