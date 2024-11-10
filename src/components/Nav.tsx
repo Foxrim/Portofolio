@@ -7,7 +7,7 @@ export default function Nav() {
     return (
         <nav className={styles.nav} >
             <div>
-                <img src="../src/assets/renard-logo.png" alt="" />
+                <img src="/public/renard-logo.png" alt="" />
             </div>
            <ul>
             <li>
@@ -22,7 +22,7 @@ export default function Nav() {
             </li>
             <li>
                 <a title="contactez moi par mail" href="#contacts">
-                    <img src="../src/assets/mail-icon.webp" alt="" />
+                    <img src="/public/mail-icon.webp" alt="" />
                 </a>
             </li>
            </ul>

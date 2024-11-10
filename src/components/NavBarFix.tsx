@@ -21,12 +21,12 @@ export default function NavBarFix() {
                 </li>
                 <li>
                     <a title="contactez moi par mail" href="#contacts">
-                        <img className={styles.iconNav} src="../src/assets/mail-icon.webp" alt="" />
+                        <img className={styles.iconNav} src="/public/mail-icon.webp" alt="" />
                     </a>
                 </li>
             </ul>
                 <a href="#top" title="retour au top">
-                    <img className={styles.iconTop} src="../src/assets/arrow-white.webp" alt="" />
+                    <img className={styles.iconTop} src="/public/arrow-white.webp" alt="" />
                 </a>
         </section>
     )
