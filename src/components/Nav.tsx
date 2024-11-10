@@ -7,22 +7,22 @@ export default function Nav() {
     return (
         <nav className={styles.nav} >
             <div>
-                <img src="/public/renard-logo.png" alt="" />
+                <img src="/public/renard-logo.png" alt="renard" />
             </div>
            <ul>
             <li>
                 <a title="mon github" href={data.github.link} target="blank_">
-                    <img src={data.github.image} alt="" />
+                    <img src={data.github.image} alt="github" />
                 </a>
             </li>
             <li>
                 <a title="mon linkdin" href={data.linkedin.link} target="blank_">
-                    <img src={data.linkedin.image} alt="" />
+                    <img src={data.linkedin.image} alt="linkedin" />
                 </a>
             </li>
             <li>
                 <a title="contactez moi par mail" href="#contacts">
-                    <img src="/public/mail-icon.webp" alt="" />
+                    <img src="/public/mail-icon.webp" alt="mail" />
                 </a>
             </li>
            </ul>
