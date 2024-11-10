@@ -28,20 +28,20 @@
     
     "github": {   
             "id": "L-G",
-            "image": "/public/github-mark-white.png",
+            "image": "https://portfolio-flavien-rousseau.netlify.app/github-mark-white.png",
             "link": "https://github.com/Foxrim"
         },
 
     "linkedin": {
             "id": "L-L",
-            "image": "/public/linkedin-white.png",
+            "image": "https://portfolio-flavien-rousseau.netlify.app/linkedin-white.png",
             "link": "https://www.linkedin.com/in/flavien-rousseau-444bbb199/"
      },     
 
     "cardProjet" : [
         {
             "id": "LPF",
-            "image": "/public/LePetitFrappe.webp",
+            "image": "https://portfolio-flavien-rousseau.netlify.app/LePetitFrappe.webp",
             "title": "Le Petit Frappé",
             "description": "Premier projet de groupe de la formation, avec un délai de 2 semaines pour le réaliser.",
             "objectif": "Réaliser un site en groupe avec pour thème choisi 'Bonnes adresses pour manger'.",
@@ -51,7 +51,7 @@
         },
         {
             "id": "JAN",
-            "image": "/public/JapanAnimation.webp",
+            "image": "https://portfolio-flavien-rousseau.netlify.app/JapanAnimation.webp",
             "title": "JapanAnimation",
             "description": "Projet réalisé durant les premières semaines de la formation.",
             "objectif": "Réaliser un site seul en seulement quelques heures. Le choix du thème était libre.",
@@ -61,7 +61,7 @@
         },
         {
             "id": "ERL",
-            "image": "/public/CardEtienne.webp",
+            "image": "https://portfolio-flavien-rousseau.netlify.app/CardEtienne.webp",
             "title": "Étienne Robial",
             "description": "Exercice réalisé afin de déterminer notre niveau de compréhension du CSS.",
             "objectif": "Réaliser une card sur l'une des personnalités listées et en faire une mini-biographie.",
@@ -71,7 +71,7 @@
         },
         {
             "id": "BAB",
-            "image": "/public/bienvenue-a-bord.webp",
+            "image": "https://portfolio-flavien-rousseau.netlify.app/bienvenue-a-bord.webp",
             "title": "Bienvenue à bord",
             "description": "Première quête de la formation.",
             "objectif": "Recopier à l'identique une maquette préfaite en usant uniquement de l'HTML et du CSS",

@@ -7,7 +7,7 @@ export default function Nav() {
     return (
         <nav className={styles.nav} >
             <div>
-                <img src="/public/renard-logo.png" alt="renard" />
+                <img src="https://portfolio-flavien-rousseau.netlify.app/renard-logo.png" alt="renard" />
             </div>
            <ul>
             <li>
@@ -22,7 +22,7 @@ export default function Nav() {
             </li>
             <li>
                 <a title="contactez moi par mail" href="#contacts">
-                    <img src="/public/mail-icon.webp" alt="mail" />
+                    <img src="https://portfolio-flavien-rousseau.netlify.app/mail-icon.webp" alt="mail" />
                 </a>
             </li>
            </ul>

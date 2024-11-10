@@ -4,8 +4,8 @@ export default function Networks() {
 
     return (
         <div className={styles.networksContainer} >
-            <img src="/public/github-mark-white.png" alt="github" />
-            <img src="/public/linkedin-white.png" alt="linkedin" />
+            <img src="https://portfolio-flavien-rousseau.netlify.app/github-mark-white.png" alt="github" />
+            <img src="https://portfolio-flavien-rousseau.netlify.app/linkedin-white.png" alt="linkedin" />
         </div>
     )
 }
