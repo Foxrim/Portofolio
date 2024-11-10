@@ -4,44 +4,44 @@
             "id": "html",
             "name": "HTML",
             "level": "intermediaire",
-            "icon": "../src/assets/html5-blue.webp"
+            "icon": "/public/html5-blue.webp"
         },
         {
             "id": "css",
             "name": "CSS",
             "level": "intermediaire",
-            "icon": "../src/assets/css-3-blue.webp"
+            "icon": "/public/css-3-blue.webp"
         },
         {
             "id": "javascript",
             "name": "Javascript",
             "level": "Les bases",
-            "icon": "../src/assets/script-java-blue.webp"
+            "icon": "/public/script-java-blue.webp"
         },
         {
             "id": "react",
             "name": "React",
             "level": "Les bases",
-            "icon": "../src/assets/react-blue.webp"
+            "icon": "/public/react-blue.webp"
         }
     ], 
     
     "github": {   
             "id": "L-G",
-            "image": "../src/assets/github-mark-white.png",
+            "image": "/public/github-mark-white.png",
             "link": "https://github.com/Foxrim"
         },
 
     "linkedin": {
             "id": "L-L",
-            "image": "../src/assets/linkedin-white.png",
+            "image": "/public/linkedin-white.png",
             "link": "https://www.linkedin.com/in/flavien-rousseau-444bbb199/"
      },     
 
     "cardProjet" : [
         {
             "id": "LPF",
-            "image": "../src/assets/LePetitFrappe.webp",
+            "image": "/public/LePetitFrappe.webp",
             "title": "Le Petit Frappé",
             "description": "Premier projet de groupe de la formation, avec un délai de 2 semaines pour le réaliser.",
             "objectif": "Réaliser un site en groupe avec pour thème choisi 'Bonnes adresses pour manger'.",
@@ -51,7 +51,7 @@
         },
         {
             "id": "JAN",
-            "image": "../src/assets/JapanAnimation.webp",
+            "image": "/public/JapanAnimation.webp",
             "title": "JapanAnimation",
             "description": "Projet réalisé durant les premières semaines de la formation.",
             "objectif": "Réaliser un site seul en seulement quelques heures. Le choix du thème était libre.",
@@ -61,7 +61,7 @@
         },
         {
             "id": "ERL",
-            "image": "../src/assets/CardEtienne.webp",
+            "image": "/public/CardEtienne.webp",
             "title": "Étienne Robial",
             "description": "Exercice réalisé afin de déterminer notre niveau de compréhension du CSS.",
             "objectif": "Réaliser une card sur l'une des personnalités listées et en faire une mini-biographie.",
@@ -71,7 +71,7 @@
         },
         {
             "id": "BAB",
-            "image": "../src/assets/bienvenue-a-bord.webp",
+            "image": "/public/bienvenue-a-bord.webp",
             "title": "Bienvenue à bord",
             "description": "Première quête de la formation.",
             "objectif": "Recopier à l'identique une maquette préfaite en usant uniquement de l'HTML et du CSS",

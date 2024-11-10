@@ -16,7 +16,7 @@ export default function ContactFormulaire() {
                 <legend >Message</legend>
                     <textarea className={styles.content} placeholder="Votre message..." />
             </fieldset>
-            <button>Envoyer</button>
+            <button title="Formulaire en cours de développement">Envoyer</button>
         </form>
     )
 }

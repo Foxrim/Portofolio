@@ -4,7 +4,8 @@ export default function Footer() {
 
     return (
         <section className={styles.footer} >
-            <p>footer</p>
+            <h3>Credits</h3>
+            <p>Site responsive réalisé par Flavien Rousseau</p>
         </section>
     )
 }
