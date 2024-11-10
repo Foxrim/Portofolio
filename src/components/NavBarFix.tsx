@@ -21,12 +21,12 @@ export default function NavBarFix() {
                 </li>
                 <li>
                     <a title="contactez moi par mail" href="#contacts">
-                        <img className={styles.iconNav} src="/public/mail-icon.webp" alt="mail" />
+                        <img className={styles.iconNav} src="https://portfolio-flavien-rousseau.netlify.app/mail-icon.webp" alt="mail" />
                     </a>
                 </li>
             </ul>
                 <a href="#top" title="retour au top">
-                    <img className={styles.iconTop} src="/public/arrow-white.webp" alt="flèche vers le haut" />
+                    <img className={styles.iconTop} src="https://portfolio-flavien-rousseau.netlify.app/arrow-white.webp" alt="flèche vers le haut" />
                 </a>
         </section>
     )
