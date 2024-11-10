@@ -4,25 +4,25 @@
             "id": "html",
             "name": "HTML",
             "level": "intermediaire",
-            "icon": "/public/html5-blue.webp"
+            "icon": "https://portfolio-flavien-rousseau.netlify.app/html5-blue.webp"
         },
         {
             "id": "css",
             "name": "CSS",
             "level": "intermediaire",
-            "icon": "/public/css-3-blue.webp"
+            "icon": "https://portfolio-flavien-rousseau.netlify.app/css-3-blue.webp"
         },
         {
             "id": "javascript",
             "name": "Javascript",
             "level": "Les bases",
-            "icon": "/public/script-java-blue.webp"
+            "icon": "https://portfolio-flavien-rousseau.netlify.app/script-java-blue.webp"
         },
         {
             "id": "react",
             "name": "React",
             "level": "Les bases",
-            "icon": "/public/react-blue.webp"
+            "icon": "https://portfolio-flavien-rousseau.netlify.app/react-blue.webp"
         }
     ], 
     
